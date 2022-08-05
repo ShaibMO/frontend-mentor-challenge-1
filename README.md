@@ -33,8 +33,8 @@ And here's is the mobile: ![](screenshots/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ShaibMO/frontend-mentor-challenge-1](https://github.com/ShaibMO/frontend-mentor-challenge-1)
+- Live Site URL: [https://frontend-mentor-challenge-1-shaibmo.vercel.app/](https://frontend-mentor-challenge-1-shaibmo.vercel.app/)
 
 ## My process
 
