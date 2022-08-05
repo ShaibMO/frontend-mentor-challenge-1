@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  width: 100%;
+}
+#overlay {
+  width: 100%;
+  background-color: hsl(30, 38%, 92%);
+  padding: 2rem 1rem;
+}
+article {
+  width: auto;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+}
+#image > img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+section#info {
+  padding: 1.5rem;
+}
+p {
+  font-size: 14px;
+  font-weight: 500;
+}
+p#header {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: hsl(212, 21%, 14%);
+  margin-bottom: 1rem;
+}
+h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+p#describe {
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1.5rem;
+}
+div.prices {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+div.prices > span#actual {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+  margin-right: 1rem;
+}
+div.prices > span#prev {
+  color: hsl(228, 12%, 48%);
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+button {
+  position: relative;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background-color: hsl(158, 36%, 10%);
+}
+button:active {
+  top: 1px;
+}
+button > img {
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 63.75rem) {
+  body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .attribution {
+    margin-bottom: 1.5rem;
+  }
+  #overlay {
+    margin-bottom: auto;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  article {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 36rem;
+    border-radius: 1rem;
+  }
+  section#image {
+    width: 50%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  #image > img {
+    content: url(images/image-product-desktop.jpg);
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem 0 0 1rem;
+  }
+  section#info {
+    width: 50%;
+  }
+} ;
